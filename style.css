@@ -1,0 +1,29 @@
+/*Elimino los marenes que pone por defecto el navegador*/
+*{
+    margin: 0 ;
+}
+.Banner{
+    border: groove 20px palevioletred;
+    background-image: url(./img/fondoweb.jpg);
+    margin: 0 20%;
+    padding: 0 5%;
+    height: 100vh;
+}
+
+.titulo_principal{
+    margin: 0 auto;
+    color:burlywood;
+    padding: auto;
+}
+
+.menu ul li{
+    display: inline;
+    font-size: 1.5em ;
+    float:left;
+}
+
+.menu a{
+    display: block;
+    padding: 8px;
+    background-color: gainsboro;
+}
